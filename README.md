@@ -1,18 +1,19 @@
-![Alt text](./renders/ocean1.png?raw=true "Optional Title")
+![Alt text](./renders/ocean.png?raw=true "Optional Title")
 
 # README
+
 This project was developed for fun to study rendering complex phenomena on the computer. This is still a work on progress, but the scene renders the moving ocean. Essentially, the algorithm works as follows: given a 2D plane of points, we can displace each point's y-coordinate in the vertex shader according to a height texture generated each frame representing the ocean height field. This texture is obtained by inverse discrete fourier transform (currently using FFTW) based on frequency inputs according to the Phillips Spectrum.
 
-
 # Left to Implement
+
 - Choppy Waves
 - Update fragment shader to colour ocean realistically
 - Foam
 - GPU Rendering options (CUDA)
 - LOD
 
-
 ## References
+
 https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__OPENGL.html#group__CUDART__OPENGL
 https://github.com/ndd314/cuda_examples/blob/master/5_Simulations/oceanFFT/oceanFFT.cpp
 
