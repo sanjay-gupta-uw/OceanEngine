@@ -24,6 +24,10 @@ https://developer.download.nvidia.com/assets/gamedev/files/sdk/11/OceanCS_Slides
 https://docs.nvidia.com/cuda/cufft/
 https://arm-software.github.io/opengl-es-sdk-for-android/ocean_f_f_t.html
 https://arm-software.github.io/opengl-es-sdk-for-android/fftwater_8cpp_source.html
+https://slembcke.github.io/WaterWaves (Cool Demo)
+https://www.researchgate.net/publication/264839743_Simulating_Ocean_Water
+https://david.li/waves/
+
 
 Inspiration:
 https://www.youtube.com/watch?v=U2fkrXxvPRY&ab_channel=JS
